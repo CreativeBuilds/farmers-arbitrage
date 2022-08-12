@@ -2,10 +2,7 @@
 
 ### Find listed NFTFi assets that are cheaper than the current floor price on exchanges.
 
-<br />
-
-### This project uses experimental features from **Node v18** please update if you have issues running it.
-
+ This project uses experimental features from **Node v18** please update if you have issues running it.
 <br />
 
 ## How to use:
