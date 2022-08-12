@@ -62,7 +62,7 @@ export const VerifyNTFfiListings = (verified_projects: Array<NFTFiProjectInfo>, 
  * @returns An array of projects that have been verified by NFTFi
  */
 export const VerifyNFTfiProjects = (projects: Array<NFTFiProjectInfo>): Array<NFTFiProjectInfo> => {
-  return projects.filter(p => p.metadata.collection?.safelist_request_status == "verified")
+  return projects.filter(p => p.metadata?.collection?.safelist_request_status == "verified")
 }
 
 /**
