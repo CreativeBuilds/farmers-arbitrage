@@ -6,6 +6,7 @@
 
 // If price is sufficiently lower than floor and a discord bot key is provided, send a message from the bot to owner
 import {
+    GetCollectionActivity,
     GetCollectionStats,
     GetSlug,
     NFTFiListingsForProject,

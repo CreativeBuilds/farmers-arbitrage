@@ -138,3 +138,24 @@ type OpenseaCollectionStats = {
     total_volume: number;
   }
 }
+
+type SudoSwapActivity = {
+  _id: string;
+  value: string;
+  unix_time: number;
+  tx_receiver: string;
+  tx_hash: string;
+  tx_caller: string;
+  parsed_swaps: Array<{
+    nft_collection: string;
+    nft_ids: string;
+    pool_address: string;
+    value: string;
+  }>;
+  method_name: string;
+  gas: {
+    gas_used: number;
+    effective_gas_price: number;
+    transaction_cost: number;
+  }
+}

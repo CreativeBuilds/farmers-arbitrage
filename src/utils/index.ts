@@ -12,4 +12,8 @@ import {
     GetCollectionStats
 } from './OpenSea'
 
-export { AllNFTFiListingsForProject, FetchNFTFiListing, GetSlug, GetCollectionStats, NFTFiListingsForProject, NFTFiTotalListings, NFTFiProjects, VerifyNTFfiListings }
+import {
+    GetCollectionActivity
+} from './SudoSwap'
+
+export { AllNFTFiListingsForProject, FetchNFTFiListing, GetSlug, GetCollectionStats, GetCollectionActivity, NFTFiListingsForProject, NFTFiTotalListings, NFTFiProjects, VerifyNTFfiListings }
